@@ -58,22 +58,20 @@
 
 ## ⚙️ Архитектура проекта
 CactusFocus/
-├── backend/ # ASP.NET Core API
-│ ├── Controllers/
-│ ├── Models/
-│ ├── Services/
-│ ├── Data/
-│ └── Program.cs
-│
-└── frontend/ # React-приложение
-├── src/
-│ ├── components/
-│ │ ├── FocusTimer.jsx
-│ │ ├── GrowingCactus.jsx
-│ │ └── Forest.jsx
-│ └── App.jsx
-└── package.json
-
+├── backend/                     # ASP.NET Core API
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Services/
+│   ├── Data/
+│   └── Program.cs
+└── frontend/                    # React-приложение
+    ├── src/
+    │   ├── components/
+    │   │   ├── FocusTimer.jsx
+    │   │   ├── GrowingCactus.jsx
+    │   │   └── Forest.jsx
+    │   └── App.jsx
+    └── package.json
 ---
 
 ## 🧩 Основные API эндпоинты
