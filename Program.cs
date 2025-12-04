@@ -662,9 +662,7 @@ namespace TheCactusApp
             }
         }
 
-        /// <summary>
-        /// Метод отображения главного меню.
-        /// </summary>
+
         static void ShowMainMenu()
         {
             Console.WriteLine("┌─────────────────────────────────────┐");
